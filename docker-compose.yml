@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  vulcan:
+    container_name: vulcan
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    env_file: docker/vulcan.env
+    ports:
+      - 9200:5000
+    restart: always
+    volumes:
+      - ./output:/app/output

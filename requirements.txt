@@ -1,0 +1,4 @@
+scapy~=2.6.0
+flask~=3.0.3
+flask-cors~=5.0.0
+python-magic~=0.4.27

@@ -1,0 +1,68 @@
+[
+  {
+    "session": {
+      "id": "1"
+    },
+    "autofill": {
+      "enabled": false
+    },
+    "ether": {
+      "type": "ipv4"
+    },
+    "ip": {
+      "version": "4"
+    },
+    "tcp": {
+      "sport": "12345",
+      "dport": "80",
+      "seq": "0",
+      "ack": "0",
+      "flags": "S",
+      "window": "65535"
+    }
+  },
+  {
+    "session": {
+      "id": "1"
+    },
+    "autofill": {
+      "enabled": false
+    },
+    "ether": {
+      "type": "ipv4"
+    },
+    "ip": {
+      "version": "4"
+    },
+    "tcp": {
+      "sport": "80",
+      "dport": "12345",
+      "seq": "0",
+      "ack": "1",
+      "flags": "SA",
+      "window": "65535"
+    }
+  },
+  {
+    "session": {
+      "id": ""
+    },
+    "autofill": {
+      "enabled": false
+    },
+    "ether": {
+      "type": "ipv4"
+    },
+    "ip": {
+      "version": "4"
+    },
+    "tcp": {
+      "sport": "12345",
+      "dport": "80",
+      "seq": "1",
+      "ack": "1",
+      "flags": "A",
+      "window": "8192"
+    }
+  }
+]

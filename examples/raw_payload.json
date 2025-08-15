@@ -1,0 +1,22 @@
+[
+  {
+    "session": {
+      "id": ""
+    },
+    "autofill": {
+      "enabled": true
+    },
+    "ip": {
+      "src": "10.10.10.100",
+      "dst": "20.30.40.50",
+      "version": "4"
+    },
+    "tcp": {
+      "sport": "3000",
+      "dport": "80"
+    },
+    "raw": {
+      "payload": "POST /route HTTP/1.1\nHost: 20.30.40.50\nUser-Agent: curl/8.4.0\nAccept: */*\nContent-Type: multipart/form-data;\nContent-Disposition: form-data; name=\"file\"; filename=\"out.zip\"\nContent-Type: application/octet-stream\n"
+    }
+  }
+]

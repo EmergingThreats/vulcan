@@ -1,0 +1,15 @@
+[
+  {
+    "session": {
+      "id": "1"
+    },
+    "autofill": {
+      "enabled": true
+    },
+    "http_request": {
+      "headers": "Cache:nocache",
+      "method": "GET",
+      "path": "example.com"
+    }
+  }
+]
